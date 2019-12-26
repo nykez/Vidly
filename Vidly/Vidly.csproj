@@ -147,6 +147,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDTO.cs" />
+    <Compile Include="Dtos\GenretypeDTO.cs" />
     <Compile Include="Dtos\MembershiptypeDTO.cs" />
     <Compile Include="Dtos\MovieDTO.cs" />
     <Compile Include="Global.asax.cs">
