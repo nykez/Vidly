@@ -189,6 +189,10 @@
     <Compile Include="Migrations\201912230835391_GenerateGenres.designer.cs">
       <DependentUpon>201912230835391_GenerateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912260658404_FixingMigrations.cs" />
+    <Compile Include="Migrations\201912260658404_FixingMigrations.designer.cs">
+      <DependentUpon>201912260658404_FixingMigrations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -305,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912230835391_GenerateGenres.resx">
       <DependentUpon>201912230835391_GenerateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260658404_FixingMigrations.resx">
+      <DependentUpon>201912260658404_FixingMigrations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
